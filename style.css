@@ -1,0 +1,58 @@
+@media only screen and (min-width: 600px) {
+
+
+*{
+    background-color:blanchedalmond
+}
+
+    .navbar{
+        display: flex;
+    justify-content: space-between;
+    
+      
+    }
+
+    .navbar .left_logo img {
+        height: 40px;
+        display: flex;
+        align-self: flex-start;
+        
+    }
+
+    .navbar .right_nav{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        list-style: none;
+    }
+ 
+
+
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+    *{
+        background-color:darkgray
+    }
+
+
+
+    .navbar{
+    display: flex;
+    flex-flow: column;
+
+    }
+    #menuToggle{
+        background-color: aliceblue;
+    }
+      
+      }
+    
+
+
+
+
+
